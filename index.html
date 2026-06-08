@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastel Quiz App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="quiz-card" id="quizCard">
+
+        <!-- Progress bar -->
+        <div class="top-section">
+
+            <div class="progress-info">
+                <!-- <span id="progressText">10%</span> -->
+            </div>
+
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+
+            <div class="timer-box">
+                <div class="timer-circle">
+                    <span id="timer">10</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Question Section -->
+
+        <div class="question-section fade">
+
+            <h3 id="questionNumber">
+                Question 1 of 10
+            </h3>
+
+            <h2 id="question">
+                Question comes here
+            </h2>
+
+            <div class="options" id="options">
+
+            </div>
+
+        </div>
+
+        <!-- Button -->
+
+        <button id="nextBtn" disabled>
+            Next
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
